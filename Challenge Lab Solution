@@ -54,5 +54,8 @@ SELECT date
 FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 where country_name="Italy" and cumulative_deceased>10000
 
+order by date asc
+
+limit 1
 
 
