@@ -16,4 +16,8 @@ with deaths_by_states as (
     
 FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 
-    
+    where country_name="United States of America" and date='2020-04-10' and subregion1_name is NOT NULL
+
+    group by subregion1_name
+)
+
