@@ -38,3 +38,5 @@ SELECT * FROM (
 )
 WHERE total_confirmed_cases > 1000
 
+
+Task - 4 : Fatality Ratio
