@@ -34,6 +34,6 @@ SELECT * FROM (
 
     GROUP BY subregion1_name
 
-    
-
+   ORDER BY total_confirmed_cases DESC
+)
 
