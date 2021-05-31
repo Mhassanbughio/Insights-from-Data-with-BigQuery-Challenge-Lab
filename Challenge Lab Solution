@@ -23,3 +23,9 @@ FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 
 ##############################################################################################################################
 Task - 3 : Identifying Hotspots
+
+SELECT * FROM (
+
+    SELECT subregion1_name as state, sum(cumulative_confirmed) as total_confirmed_cases
+
+    
