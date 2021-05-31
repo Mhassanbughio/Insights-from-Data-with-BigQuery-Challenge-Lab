@@ -45,5 +45,6 @@ SELECT sum(cumulative_confirmed) as total_confirmed_cases, sum(cumulative_deceas
 
 FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 
+where country_name="Italy" AND date BETWEEN '2020-04-01'and '2020-04-30'
 
 
