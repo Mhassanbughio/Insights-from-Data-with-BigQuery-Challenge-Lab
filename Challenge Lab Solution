@@ -28,4 +28,6 @@ SELECT * FROM (
 
     SELECT subregion1_name as state, sum(cumulative_confirmed) as total_confirmed_cases
 
+    FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
+
     
