@@ -21,3 +21,5 @@ FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
     group by subregion1_name
 )
 
+##############################################################################################################################
+Task - 3 : Identifying Hotspots
