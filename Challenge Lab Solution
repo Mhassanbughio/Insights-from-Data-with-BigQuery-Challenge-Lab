@@ -9,3 +9,8 @@ WHERE date='2020-04-15'
 ##############################################################################################################################
 Task - 2 : Worst Affected Areas
 
+with deaths_by_states as (
+
+    SELECT subregion1_name as state, sum(cumulative_deceased) as death_count
+
+    
