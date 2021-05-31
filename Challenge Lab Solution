@@ -30,4 +30,10 @@ SELECT * FROM (
 
     FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 
+    WHERE country_code="US" AND date='2020-04-10' AND subregion1_name is NOT NULL
+
+    GROUP BY subregion1_name
+
     
+
+
