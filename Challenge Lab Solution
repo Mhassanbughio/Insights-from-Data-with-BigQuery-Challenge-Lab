@@ -52,4 +52,7 @@ Task - 5 : Identifying specific day
 
 SELECT date
 FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
+where country_name="Italy" and cumulative_deceased>10000
+
+
 
