@@ -47,4 +47,6 @@ FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
 
 where country_name="Italy" AND date BETWEEN '2020-04-01'and '2020-04-30'
 
+#############################################################################################################################
+Task - 5 : Identifying specific day
 
