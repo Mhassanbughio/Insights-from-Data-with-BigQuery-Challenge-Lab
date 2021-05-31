@@ -36,4 +36,5 @@ SELECT * FROM (
 
    ORDER BY total_confirmed_cases DESC
 )
+WHERE total_confirmed_cases > 1000
 
