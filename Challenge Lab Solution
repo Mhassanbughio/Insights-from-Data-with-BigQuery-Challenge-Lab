@@ -1,3 +1,6 @@
 From Navigation Menu -> BigQuery.
 
 Task - 1 : Total Confirmed Cases
+
+SELECT sum(cumulative_confirmed) as total_cases_worldwide
+
