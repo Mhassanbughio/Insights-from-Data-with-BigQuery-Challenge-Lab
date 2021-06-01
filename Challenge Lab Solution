@@ -59,3 +59,4 @@ order by date asc
 limit 1
 
 
+Task - 6 : Finding days with zero net new cases
