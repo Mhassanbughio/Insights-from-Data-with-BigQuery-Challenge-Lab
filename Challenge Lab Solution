@@ -108,5 +108,7 @@ FROM pakistan_cases_by_date
 
 select count(*)
 
+from india_previous_day_comparison
 
+where net_new_cases=0
 
