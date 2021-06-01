@@ -100,4 +100,9 @@ GROUP BY
   
 LAG(cases) OVER(ORDER BY date) AS previous_day,
 
-  
+  cases - LAG(cases) OVER(ORDER BY date) AS net_new_cases
+
+FROM pakistan_cases_by_date
+
+)
+
