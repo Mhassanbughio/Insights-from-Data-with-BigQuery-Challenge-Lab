@@ -80,6 +80,13 @@ WHERE
     AND date between '2020-02-21' and '2020-03-15'
 
   
+GROUP BY
 
+    date
 
+  ORDER BY
+
+    date ASC
+
+ )  , 
   
