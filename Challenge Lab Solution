@@ -106,3 +106,7 @@ FROM pakistan_cases_by_date
 
 )
 
+select count(*)
+
+
+
