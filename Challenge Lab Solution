@@ -69,4 +69,8 @@ WITH india_cases_by_date AS (
 
     SUM( cumulative_confirmed ) AS cases
 
+  FROM
+
+    `bigquery-public-data.covid19_open_data.covid19_open_data`
+
   
