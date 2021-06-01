@@ -60,3 +60,13 @@ limit 1
 
 ############################################################################################################################
 Task - 6 : Finding days with zero net new cases
+
+WITH india_cases_by_date AS (
+
+  SELECT
+
+    date,
+
+    SUM( cumulative_confirmed ) AS cases
+
+  
