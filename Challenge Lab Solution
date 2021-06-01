@@ -98,4 +98,6 @@ GROUP BY
   cases,
 
   
+LAG(cases) OVER(ORDER BY date) AS previous_day,
 
+  
