@@ -73,4 +73,13 @@ WITH india_cases_by_date AS (
 
     `bigquery-public-data.covid19_open_data.covid19_open_data`
 
+WHERE
+
+    country_name ="India"
+
+    AND date between '2020-02-21' and '2020-03-15'
+
+  
+
+
   
