@@ -91,3 +91,11 @@ GROUP BY
  )  , 
   pakistan_previous_day_comparison AS
 
+(SELECT
+
+  date,
+
+  cases,
+
+  
+
