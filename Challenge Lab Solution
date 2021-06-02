@@ -134,3 +134,6 @@ GROUP BY
     date ASC
 
  )
+ 
+ , us_previous_day_comparison AS
+
