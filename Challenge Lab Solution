@@ -152,3 +152,5 @@ GROUP BY
 FROM us_cases_by_date
 
 )
+
+select Date, cases as Confirmed_Cases_On_Day, previous_day as Confirmed_Cases_Previous_Day, percentage_increase as Percentage_Increase_In_Cases
