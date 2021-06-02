@@ -200,3 +200,6 @@ FROM cases_by_country
 
 SELECT country, cases AS confirmed_cases, recovered_cases, recovery_rate
 
+FROM recovered_rate
+
+WHERE cases > 50000
