@@ -114,3 +114,11 @@ where net_new_cases=0
 
 ###########################################################################################################################
 Task - 7 : Doubling rate
+
+WITH us_cases_by_date AS (
+
+  SELECT
+
+    date,
+
+    SUM(cumulative_confirmed) AS cases
