@@ -137,3 +137,18 @@ GROUP BY
  
  , us_previous_day_comparison AS
 
+(SELECT
+
+  date,
+
+  cases,
+
+  LAG(cases) OVER(ORDER BY date) AS previous_day,
+
+  cases - LAG(cases) OVER(ORDER BY date) AS net_new_cases,
+
+  (cases - LAG(cases) OVER(ORDER BY date))*100/LAG(cases) OVER(ORDER BY date) AS percentage_increase
+
+FROM us_cases_by_date
+
+)
