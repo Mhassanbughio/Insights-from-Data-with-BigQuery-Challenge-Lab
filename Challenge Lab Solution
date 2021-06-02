@@ -168,3 +168,8 @@ WITH cases_by_country AS (
     country_name AS country,
 
     sum(cumulative_confirmed) AS cases,
+sum(cumulative_recovered) AS recovered_cases
+
+  FROM
+
+    bigquery-public-data.covid19_open_data.covid19_open_data
