@@ -160,3 +160,11 @@ where percentage_increase > 10
 
 ############################################################################################################################
 Task - 8 : Recovery rate
+
+WITH cases_by_country AS (
+
+  SELECT
+
+    country_name AS country,
+
+    sum(cumulative_confirmed) AS cases,
