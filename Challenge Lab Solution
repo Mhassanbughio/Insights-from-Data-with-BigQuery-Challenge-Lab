@@ -173,3 +173,17 @@ sum(cumulative_recovered) AS recovered_cases
   FROM
 
     bigquery-public-data.covid19_open_data.covid19_open_data
+
+WHERE
+
+    date = '2020-05-10'
+
+  GROUP BY
+
+    country_name
+
+ )
+
+
+
+, recovered_rate AS
