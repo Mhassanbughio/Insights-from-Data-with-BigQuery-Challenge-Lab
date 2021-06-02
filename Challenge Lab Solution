@@ -157,3 +157,6 @@ select Date, cases as Confirmed_Cases_On_Day, previous_day as Confirmed_Cases_Pr
 
 from us_previous_day_comparison
 where percentage_increase > 10
+
+############################################################################################################################
+Task - 8 : Recovery rate
