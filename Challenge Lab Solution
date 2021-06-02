@@ -187,3 +187,13 @@ WHERE
 
 
 , recovered_rate AS
+
+(SELECT
+
+  country, cases, recovered_cases,
+
+  (recovered_cases * 100)/cases AS recovery_rate
+
+FROM cases_by_country
+
+)
