@@ -125,3 +125,12 @@ WITH us_cases_by_date AS (
 FROM
 
     `bigquery-public-data.covid19_open_data.covid19_open_data`
+GROUP BY
+
+    date
+
+  ORDER BY
+
+    date ASC
+
+ )
