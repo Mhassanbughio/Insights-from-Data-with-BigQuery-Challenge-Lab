@@ -218,3 +218,9 @@ WITH
     date,
 
     SUM(cumulative_confirmed) AS total_cases
+
+FROM
+
+    `bigquery-public-data.covid19_open_data.covid19_open_data`
+
+  WHERE
