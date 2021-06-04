@@ -209,3 +209,12 @@ LIMIT 10
 
 ############################################################################################################################
 Task - 9 : CDGR - Cumulative Daily Growth Rate
+WITH
+
+  france_cases AS (
+
+  SELECT
+
+    date,
+
+    SUM(cumulative_confirmed) AS total_cases
