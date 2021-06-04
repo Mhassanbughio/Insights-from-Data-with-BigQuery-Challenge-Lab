@@ -242,3 +242,6 @@ GROUP BY
 SELECT
 
   total_cases AS first_day_cases,
+LEAD(total_cases) OVER(ORDER BY date) AS last_day_cases,
+
+  DATE_DIFF(LEAD(date) OVER(ORDER BY date),date, day) AS days_diff
