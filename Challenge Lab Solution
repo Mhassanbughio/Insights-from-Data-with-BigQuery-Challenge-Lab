@@ -260,3 +260,6 @@ Task - 10 : Create a Datastudio report
 SELECT
 
   date, SUM(cumulative_confirmed) AS country_cases,
+SUM(cumulative_deceased) AS country_deaths
+
+FROM
