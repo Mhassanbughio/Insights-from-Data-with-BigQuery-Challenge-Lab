@@ -263,3 +263,6 @@ SELECT
 SUM(cumulative_deceased) AS country_deaths
 
 FROM
+bigquery-public-data.covid19_open_data.covid19_open_data`
+
+WHERE
