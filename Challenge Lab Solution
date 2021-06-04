@@ -237,3 +237,8 @@ GROUP BY
   ORDER BY
 
     date)
+, summary as (
+
+SELECT
+
+  total_cases AS first_day_cases,
