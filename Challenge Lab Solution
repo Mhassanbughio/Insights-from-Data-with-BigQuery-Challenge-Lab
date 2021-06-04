@@ -206,3 +206,6 @@ WHERE cases > 50000
 ORDER BY recovery_rate desc
 
 LIMIT 10
+
+############################################################################################################################
+Task - 9 : CDGR - Cumulative Daily Growth Rate
