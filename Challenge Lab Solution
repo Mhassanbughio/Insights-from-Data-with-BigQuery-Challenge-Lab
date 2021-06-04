@@ -245,3 +245,8 @@ SELECT
 LEAD(total_cases) OVER(ORDER BY date) AS last_day_cases,
 
   DATE_DIFF(LEAD(date) OVER(ORDER BY date),date, day) AS days_diff
+FROM
+
+  france_cases
+
+LIMIT 1
