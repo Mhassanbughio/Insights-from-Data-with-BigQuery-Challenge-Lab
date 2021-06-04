@@ -270,3 +270,7 @@ WHERE
 date BETWEEN '2020-03-15'
 
   AND '2020-04-30'
+  
+  AND country_name ="United States of America"
+
+GROUP BY date
